@@ -10,8 +10,7 @@ function Footer() {
   const [subscribeMessage, setSubscribeMessage] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
-
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
   const handleSubscribedEmail = (e) => {
     e.preventDefault();
     if (subscribedEmail) {

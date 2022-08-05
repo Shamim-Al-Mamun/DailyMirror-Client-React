@@ -16,7 +16,7 @@ function Editpost() {
   var navigate = useNavigate();
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   const post = posts.filter((post) => post._id === postID);
   if (post && post.length && post.length > 0) {

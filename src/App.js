@@ -52,8 +52,7 @@ function App() {
   const [favourites, setFavourites] = useState([]);
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
-  console.log(baseURL);
+  var baseURL = "https://dailymirrorapi.herokuapp.com/api";
   //Theme Color
   var colors = JSON.parse(localStorage.getItem("colors"));
   //Favourite post

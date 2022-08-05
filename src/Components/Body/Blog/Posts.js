@@ -19,7 +19,7 @@ function Posts() {
   const [showAllPosts, setShowAllPosts] = useState(10);
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   const updatePosts = (id, post) => {
     axios

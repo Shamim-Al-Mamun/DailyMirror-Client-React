@@ -20,7 +20,7 @@ function ChangePass() {
   const [message, setMessage] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   async function handleLogOut() {
     var token = localStorage.getItem("token");

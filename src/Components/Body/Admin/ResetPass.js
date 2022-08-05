@@ -16,7 +16,7 @@ function ResetPass() {
   const [error, setError] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   const onsubmitPass = (e) => {
     e.preventDefault();

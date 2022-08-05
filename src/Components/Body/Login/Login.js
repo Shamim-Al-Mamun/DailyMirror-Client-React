@@ -13,8 +13,7 @@ function Login({ setAuth }) {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
-
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
   const onchange = (e) => {
     setLoginInfo({ ...loginInfo, [e.target.name]: e.target.value });
     if (loginInfo.email && loginInfo.password) {

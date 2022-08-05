@@ -26,7 +26,7 @@ const SideBar = ({ children }) => {
   const toggle = () => setIsOpen(!isOpen);
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   var routes = [];
   if (user) {

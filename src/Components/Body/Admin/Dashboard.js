@@ -14,8 +14,7 @@ function Dashboard() {
   const [userRole, setUserRole] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
-
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
   useEffect(() => {
     if (user) {
       const { role } = user;

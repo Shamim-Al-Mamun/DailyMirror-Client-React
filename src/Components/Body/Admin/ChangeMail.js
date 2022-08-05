@@ -25,7 +25,7 @@ function ChangeMail() {
   const [timer, setTimer] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
 
   var time = new Date();
   var times = time.setSeconds(time.getSeconds() + 150); // 2.5 minutes timer

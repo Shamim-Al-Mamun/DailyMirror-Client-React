@@ -12,7 +12,7 @@ function ForgotPass() {
   const [error, setError] = useState("");
 
   //API URL
-  const baseURL = process.env.React_APP_API_URL;
+  const baseURL = "https://dailymirrorapi.herokuapp.com/api";
   const URL = window.location.host;
 
   const characters =
