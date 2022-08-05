@@ -228,8 +228,9 @@ button:focus,
   z-index: 2 !important;
 }
 .blog {
-  margin-top: 41vh !important;
   width: 100%;
+  margin: auto !important;
+  margin-top: 41vh !important;
 }
 .seeMore-btn,
 .edit-btn,
@@ -388,7 +389,11 @@ button:focus,
   }
 }
 @media only screen and (max-width: 780px) {
-  .loginCard {
+  .caroselHeader {
+    font-size: 15px;
+  }
+  .loginCard,
+  .forgotCard {
     width: 90% !important;
   }
   .login {

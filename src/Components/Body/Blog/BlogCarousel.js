@@ -46,6 +46,7 @@ function BlogCarousel() {
                     </AnimatePresence>
                     <AnimatePresence>
                       <motion.h3
+                        className="caroselHeader"
                         style={{ color: "white" }}
                         initial={{ opacity: 0, scale: 1, y: "5px" }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}

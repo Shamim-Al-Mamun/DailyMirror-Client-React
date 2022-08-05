@@ -16,10 +16,10 @@ function BlogBody() {
           <Col className="" lg={3} md={3}>
             <Profile />
           </Col>
-          <Col className="" lg={6} md={6}>
+          <Col className="text-center" lg={6} md={6}>
             <Posts />
           </Col>
-          <Col className="" lg={3} md={3}>
+          <Col className="text-center" lg={3} md={3}>
             <Catagories />
             <LatestPost />
           </Col>
