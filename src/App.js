@@ -52,7 +52,8 @@ function App() {
   const [favourites, setFavourites] = useState([]);
 
   //API URL
-  var baseURL = process.env.React_APP_API_URL;
+  const baseURL = process.env.React_APP_API_URL;
+  console.log(baseURL);
   //Theme Color
   var colors = JSON.parse(localStorage.getItem("colors"));
   //Favourite post
